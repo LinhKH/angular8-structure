@@ -7,7 +7,7 @@ const routes: Routes = [
 	{ path: 'front', loadChildren: './front/front.module#FrontModule' },
 	// { path: 'login', loadChildren: './login/login.module#LoginModule' },
 	{ path: 'login', component: LoginComponent },
-	{ path: 'admin', loadChildren: './admin/admin.module#AdminModule' },
+  { path: 'admin', loadChildren: './admin/admin.module#AdminModule' },
 ];
 
 @NgModule({

@@ -6,7 +6,7 @@ import { LoginComponent } from './login/login.component';
 
 import { FrontModule } from './front/front.module';
 import { AdminModule } from './admin/admin.module';
-
+import { CoreModule } from './core/core.module';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,6 +20,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AdminModule,
     FrontModule,
+    CoreModule,
     AppRoutingModule
   ],
   providers: [],
